@@ -1,16 +1,33 @@
-body{
 
+<-------------- Basic ---------------->
+
+body{
+  background-color: yellow;
 }
 
 #header {
-background-color: yellow;
-width: 30%
-
+background-color: #e2bdba;
+   font-family: Helvetica, sans-serif;
+float: left;
+display: block;
 }
 
 img.center{ 
 display: block;
-margin-top: 10%
+margin-top: 5%
 width: 800px;
 height: auto;
+float: right;
+}
+
+#img{
+	display: block;
+	margin-top: auto;
+	width: auto;
+	height: auto;
+	float: right;
+}
+
+#available{
+	    background-color: crimson;
 }
