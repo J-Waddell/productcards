@@ -1,16 +1,30 @@
 body{
-
+  background-color: yellow;
 }
 
 #header {
-background-color: yellow;
+background-color: black;
+   font-family: Helvetica, sans-serif;
 width: 30%
-
+height 100%
+text: center;
 }
 
 img.center{ 
 display: block;
-margin-top: 10%
+margin-top: 5%
 width: 800px;
 height: auto;
+}
+
+#img{
+	display: block;
+	margin-top: auto;
+	width: auto;
+	height: auto;
+}
+
+#available{
+	background-color: grey
+	text: yellow;
 }
