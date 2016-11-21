@@ -1,22 +1,26 @@
 
 <-------------- Basic ---------------->
 
+title.title{
+	text-align: center;
+}
+
 body{
-  background-color: yellow;
-  text-align: center;
+  background-color: #e2bdba;
+  margin-left: auto;	
 }
 
 #header {
 background-color: #e2bdba;
    font-family: Helvetica, sans-serif;
-float: left;
-display: block;
+   text-align: center;
 }
 
 img.center{ 
 display: block;
-width: 800px;
+width: 500px;
 height: auto;
+margin: auto;
 }
 
 #img{
@@ -34,4 +38,22 @@ height: auto;
 
 #img-description{
 	position: 100px
+}
+
+#header1{
+	text-align: center;
+}
+
+#size{
+margin-left: auto;
+text-align: center;
+}
+
+#weight{
+margin-left: auto;
+text-align: center;
+}
+
+div.pricing{
+	text-align: center;
 }
