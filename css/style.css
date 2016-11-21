@@ -1,23 +1,26 @@
 
 <-------------- Basic ---------------->
 
+title.title{
+	text-align: center;
+}
+
 body{
-  background-color: yellow;
+  background-color: #e2bdba;
+  margin-left: auto;	
 }
 
 #header {
 background-color: #e2bdba;
    font-family: Helvetica, sans-serif;
-float: left;
-display: block;
+   text-align: center;
 }
 
 img.center{ 
 display: block;
-margin-top: 5%
-width: 800px;
+width: 500px;
 height: auto;
-float: right;
+margin: auto;
 }
 
 #img{
@@ -30,4 +33,27 @@ float: right;
 
 #available{
 	    background-color: crimson;
+	    text-align: center;
+}
+
+#img-description{
+	position: 100px
+}
+
+#header1{
+	text-align: center;
+}
+
+#size{
+margin-left: auto;
+text-align: center;
+}
+
+#weight{
+margin-left: auto;
+text-align: center;
+}
+
+div.pricing{
+	text-align: center;
 }
